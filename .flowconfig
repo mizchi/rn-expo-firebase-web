@@ -1,0 +1,16 @@
+[ignore]
+<PROJECT_ROOT>/node_modules/react-native/.*
+<PROJECT_ROOT>/node_modules/expo/.*
+<PROJECT_ROOT>/node_modules/protobufjs/src/bower.json
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+module.name_mapper='^~/\(.*\)$' -> '<PROJECT_ROOT>/src/\1'
+module.name_mapper='^test/\(.*\)$' -> '<PROJECT_ROOT>/test/\1'
+
+[strict]
